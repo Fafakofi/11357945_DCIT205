@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #ecedee;
+  }
+  header {
+    max-height: 70px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header > .nav-logo {
+    height: 70px;
+    width: 70px;
+    flex-grow: 0.2;
+    background-color: red;
+  }
+  
+  header > .nav-logo img {
+    height: 60px;
+    margin-left: 20px;
+  }
+  
+  header > .nav-links {
+    height: 70px;
+    flex-grow: 2.2;
+    background-color: yellow;
+  }
+  
+  header > .nav-links nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  header > .nav-links nav ul li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  header > .nav-links nav ul li a {
+    text-decoration: none;
+    color: #112f98;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  header > .nav-extra {
+    height: 70px;
+    width: 70px;
+    background-color: pink;
+    flex-grow: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-extra > input {
+    border: 1px solid #3ca0b8;
+    background-color: rgba(217, 217, 217, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    flex-shrink: 0;
+    padding-right: 25px;
+  }
+  
+  .nav-extra > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-color: #3ca0b8;
+    flex-shrink: 0;
+    border: 2px solid #3ca0b8;
+    color: #fff;
+  }
