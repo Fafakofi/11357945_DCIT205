@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #e6e7e8;
+  }
+
+  header {
+    max-height: 70px;
+    position: fixed;
+    z-index: 1;
+    height: 70px;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+header > .nav-logo {
+    width: 70px;
+    flex-grow: 0.05;
+  }
+
+  
+header > .nav-logo img {
+    height: 30px;
+    margin-left: 0px;
+  }
+  
+  header > .nav-links {
+    height: 70px;
+    flex-grow: 0.5;
+    margin-left: 50px;
+    /* background-color: blue; */
+  }
+  
+  header > .nav-links nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+
+  header > .nav-links nav ul li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  header > .nav-links nav ul li a {
+    text-decoration: none;
+    color: #112f98;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  header > .nav-links nav ul li a:hover{
+    color: orange;
+    transition: all 0.1s ease-in-out;
+  }
+
+  header > .nav-extra {
+    height: 70px;
+    width: 70px;
+  
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-extra > input {
+    border: 1px solid #3ca0b8;
+    background-color: rgba(217, 217, 217, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    flex-shrink: 0;
+    padding-right: 5px;
+  }
+
+  .nav-extra > button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-color: #3ca0b8;
+    flex-shrink: 0;
+    border: 2px solid #3ca0b8;
+    color: #fff;
+  }
+  
+  .nav-extra > button:hover{
+    color: #3ca0b8;
+    background-color: #fff;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .nav-extra > button:active{
+    opacity: 0.7;
+    background-color: #3ca0b8;
+    color: #fff;
+  }
+
+  main {
+    width: 100vw;
+    height: 150vh;
+  }
+  
+  /* Banner */
+  #hero {
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero1{
+    height: 200vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url();
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
