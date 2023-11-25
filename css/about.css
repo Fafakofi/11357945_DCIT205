@@ -5,7 +5,7 @@
   }
 
   body {
-    background-color: #e6e7e8;
+    background-color: white;
   }
 
   header {
@@ -132,16 +132,85 @@ header > .nav-logo img {
   }
 
   #hero1{
-    height: 200vh;
-    width: 100vw;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url();
+    height: 70vh;
+    width: 96vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/pexels-mart-production-7088530.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 22px;
+  }
+
+
+  .hero1-content {
+    position: absolute;
+  }
+  
+  .hero1-content > h1 {
+    color: rgba(255, 255, 255, 0.621);
+    font-size: 55px;
+  }
+
+  .welcome{
+    font-size: 35px;
+    text-align: center;
+    color: #0e1428;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  .about-article, .about-article1, .about-article2 {
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-size: large;
+    margin-bottom: 20px;
 
   }
+
+  .knowus{
+    margin-bottom: 20px;
+  }
+
+  .knowus > h1{
+    font-size: 35px;
+    color: #0e1428;
+  }
+
+  .knowus > p{
+    font-size: large;
+  }
+  .organization, .community, .distance, .building{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+  }
+
+  .organization > img, .community > img, .distance > img, .building > img{
+     width: 50px;
+     flex: 1;
+    
+  }
+
+  .organization > .organ, .community > .inspire, .distance > .learning, .building > .project{
+    flex: 1;
+
+  }
+  .organization > .organ h1, .community > .inspire, .distance > .learning h1, .building > .project h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .organization > .organ p, .community > .inspire p, .distance > .learning p, .building > .project p{
+    font-size: large;
+  }
+
+
+
+
 
