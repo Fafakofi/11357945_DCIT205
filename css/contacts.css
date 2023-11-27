@@ -121,17 +121,24 @@ header > .nav-logo img {
   }
   
   /* Banner */
-  #hero {
+  #contacthero {
     height: 90vh;
     width: 100vw;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(/images/hero.jpg);
+    url(/images/ContactUs.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  }
+
+  .contacts{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.621);
   }
 
 
