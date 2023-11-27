@@ -18,16 +18,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
   }
 
   
 header > .nav-logo {
     width: 70px;
     flex-grow: 0.05;
+    
   }
-
-  
 
   
 header > .nav-logo img {
@@ -89,7 +87,7 @@ header > .nav-logo img {
     padding-right: 5px;
   }
 
-  .nav-extra > a button {
+  .nav-extra >  a button {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -109,7 +107,7 @@ header > .nav-logo img {
     cursor: pointer;
   }
 
-  .nav-extra > a button:active{
+  .nav-extra >a button:active{
     opacity: 0.7;
     background-color: #3ca0b8;
     color: #fff;
@@ -133,8 +131,3 @@ header > .nav-logo img {
     justify-content: center;
     align-items: center;
   }
-
-
-  
-
-

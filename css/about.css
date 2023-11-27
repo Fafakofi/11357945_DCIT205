@@ -86,7 +86,7 @@ header > .nav-logo img {
     padding-right: 5px;
   }
 
-  .nav-extra > button {
+  .nav-extra > a button {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -99,14 +99,14 @@ header > .nav-logo img {
     color: #fff;
   }
   
-  .nav-extra > button:hover{
+  .nav-extra > a button:hover{
     color: #3ca0b8;
     background-color: #fff;
     transition: all 0.1s ease-in-out;
     cursor: pointer;
   }
 
-  .nav-extra > button:active{
+  .nav-extra > a button:active{
     opacity: 0.7;
     background-color: #3ca0b8;
     color: #fff;
@@ -184,6 +184,8 @@ header > .nav-logo img {
   .knowus > p{
     font-size: large;
   }
+
+
   .organization, .community, .distance, .building{
       display: flex;
       align-items: center;
@@ -206,7 +208,7 @@ header > .nav-logo img {
     font-size: 35px;
   }
 
-  .organization > .organ p, .community > .inspire p, .distance > .learning p, .building > .project p{
+  .organization > .organ p, .community > .inspire p, .distance > .learning p, .building > .project{
     font-size: large;
   }
 
