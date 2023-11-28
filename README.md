@@ -13,5 +13,10 @@
         3. Version control with github 
         
 ![about](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/01037b33-2184-4d26-ae8a-a93c24978eaf)
+![Home](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/be127ba5-6367-4a63-9695-cd96c255a64d)
+![profile](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/5e54bf3d-0792-4198-ab12-4bf7af3b6f9f)
+![faculty](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/ad852f6f-9c39-4cb9-a91f-82cb5e161cd0)
+![Courses](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/6627a66c-3d94-49f8-b60d-dc943c9d823e)
+![aboutnd](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/16f8fb2d-c885-4305-a676-cb0439bb8a19)
      
     
