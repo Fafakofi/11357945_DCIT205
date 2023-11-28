@@ -20,6 +20,27 @@
     align-items: center;
   }
 
+  .hero {
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    position: absolute;
+  }
+  
+  .hero-content > h1 {
+    color: rgba(255, 255, 255, 0.621);
+    font-size: 55px;
+  }
   
 header > .nav-logo {
     width: 70px;
@@ -129,4 +150,24 @@ header > .nav-logo img {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+
+  .some, .sport{
+    margin-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 90px;
+  }
+
+  .some > img, .sport > img{
+    flex: 1;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .some figcaption , .sport > figcaption{
+    color: #112f98;
+    font-size: 55px;
+    text-align: center;
   }
