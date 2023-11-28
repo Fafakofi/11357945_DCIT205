@@ -11,16 +11,7 @@
         1. How to use git hub to work with others
         2. I have been exposed to the real world of web development forcing me to enhance my problem solving skills
         3. Version control with github 
-
-        ![about](https://github.com/Fafakofi/EDISSCO/assets/151552622/ab3e3621-7f6a-4118-9a73-be666fc226a7)
         
-        ![home!]([/images/Home.png](https://raw.githubusercontent.com/fafakofi/11357947_DCIT205/main/images/Home.png))
-        ![about!](/images/about.png)
-        ![about!](/images/aboutnd.png)
-        ![resources!](resources.png)
-        ![courses!](/images/Courses.png)
-        ![profile!](/images/profile.png)
-        ![faculty!](/images/faculty.png)
-   
+![about](https://github.com/Fafakofi/11357945_DCIT205/assets/151552622/01037b33-2184-4d26-ae8a-a93c24978eaf)
      
     
