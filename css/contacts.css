@@ -141,6 +141,34 @@ header > .nav-logo img {
     color: rgba(255, 255, 255, 0.621);
   }
 
+  .sark{
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .sark > form {
+    flex: 1;
+  } 
+
+  .sark article{
+    flex: 1;
+  }
+
+  .ivan, .perry{
+    margin-bottom: 20px;
+  }
+  .ivan > input, .perry input{
+    padding: 5px;
+    background-color: white;
+    border: none;
+  }
+  article > h2{
+    margin-bottom: 5px;
+  }
+  
+  .petra{
+    margin-top: 20px;
+  }
 
   
 
