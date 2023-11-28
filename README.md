@@ -15,7 +15,7 @@
         ![home!]([/images/Home.png](https://raw.githubusercontent.com/fafakofi/11357947_DCIT205/main/images/Home.png))
         ![about!](/images/about.png)
         ![about!](/images/aboutnd.png)
-        ![resources!](/images/resources.png)
+        ![resources!](resources.png)
         ![courses!](/images/Courses.png)
         ![profile!](/images/profile.png)
         ![faculty!](/images/faculty.png)
