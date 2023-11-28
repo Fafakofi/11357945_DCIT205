@@ -11,6 +11,14 @@
         1. How to use git hub to work with others
         2. I have been exposed to the real world of web development forcing me to enhance my problem solving skills
         3. Version control with github 
+        
+        ![home](/images/Home.png)
+        ![about](/images/about.png)
+        ![about](/images/aboutnd.png)
+        ![resources](/images/resources.png)
+        ![courses](/images/Courses.png)
+        ![profile](/images/profile.png)
+        ![faculty](/images/faculty.png)
    
      
     
