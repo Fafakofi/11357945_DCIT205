@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/css/apply.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS redo </title>
+    <title>Apply </title>
 
 </head>
 <body>
@@ -16,15 +16,15 @@
           <div class="nav-links">
             <nav>
               <ul>
-                <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
-                <li><a href="http://127.0.0.1:5501/html/about.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/html/about.html">About</a></li>
                 <li><a href="http://127.0.0.1:5501/html/catalog.html">Catalog</a></li>
-                <li><a href="http://127.0.0.1:5501/html/resources.html">Resources</a></li>
+                <li><a href="http://127.0.0.1:5500/html/resources.html">Resources</a></li>
                 <li><a href="http://127.0.0.1:5501/html/events.html">Events</a></li>
                 <li><a href="http://127.0.0.1:5501/html/contacts.html">Contact</a></li>
                 <li><a href="http://127.0.0.1:5501/html/faculty.html">Faculty</a></li>
                 <li><a href="http://127.0.0.1:5501/html/profiles.html">Profiles</a></li>
-                <li><a href="">C</a></li>
+                <li><a href="http://127.0.0.1:5501/html/facilities.html">Facilities</a></li>
                
                
     
@@ -34,10 +34,7 @@
 
           
       <div class="nav-extra">
-        <input type="text" name="" id="explore" placeholder="Explore" />
-        <!-- <a href="http://127.0.0.1:5501/html/apply.html">
-            <button>Apply</button>
-          </a> -->
+        <input type="text" name="" id="explore" placeholder="Explore"/>
       </div>
     </header>
 
@@ -49,13 +46,19 @@
           <h1>
             APPLICATION FORM
           </h1>
+          
           <secton class="text">
-            <label for="NAME">NAME:</label>
-            <input type="text" placeholder="eg: Hans Henyo" class="NAME" id="name" required>
+            <label for="NAME">first name:</label>
+            <input type="text" placeholder="eg: Hans" class="NAME" id="name" required>
+            <label for="NAME">surname:</label>
+            <input type="text" placeholder="eg: Henyo" class="NAME" id="name" required>
           </secton>
 
           <section class="year">
-            <label for="Years">HIGH SCHOOL:</label>
+            <secton class="textC">
+              <label for="ID">HIGH SCHOOL:</label>
+              <input type="text" placeholder="eg: 11110011" class="ID" id="name" required>
+              
           <input placeholder="Year of completion" list="years" id="Years" name="years" required>
 
           <datalist id="years">
@@ -72,10 +75,34 @@
             <option value="2020"></option>
             <option value="2021"></option>
             <option value="2022"></option>
-
-          </section>
-          
           </datalist>
+            </secton>
+            <secton class="text">
+              <label for="NAME">Father's name:</label>
+              <input type="text"  class="NAME" id="name">
+
+              <label for="NAME">mother's name:</label>
+              <input type="text"  class="NAME" id="name">
+            </secton>
+
+            <secton class="text">
+              <label for="NAME">place of stay:</label>
+              <input type="text"  class="NAME" id="name">
+
+              <label for="NAME">hometown:</label>
+              <input type="text"  class="NAME" id="name">
+            </secton>
+            
+            
+
+
+            
+        </section>
+
+        
+        <section >
+          <input class="submission" type="submit" value="SUBMIT">
+          
         </section>
 
         </form>

@@ -128,7 +128,28 @@
   .lecturer1{
     width: 100vw;
     display: flex;
-    height: 70vh;
+    height: 50vh;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .lecturer1 figcaption {
+    margin-left: 30px;
+  }
+
+  .lecturer1 figcaption h2{
+    color: blue;
+    font-size:30px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+  .lecturer1 figcaption p{
+    color: blue;
+    font-size:20px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
   }
 
   

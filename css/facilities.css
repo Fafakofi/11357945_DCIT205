@@ -3,11 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
   }
-
   body {
     background-color: #e6e7e8;
   }
-
   header {
     max-height: 70px;
     position: fixed;
@@ -19,16 +17,14 @@
     justify-content: space-between;
     align-items: center;
   }
-
   
-header > .nav-logo {
+  header > .nav-logo {
     width: 70px;
     flex-grow: 0.05;
-    
-  }
-
   
-header > .nav-logo img {
+  }
+  
+  header > .nav-logo img {
     height: 30px;
     margin-left: 0px;
   }
@@ -46,11 +42,18 @@ header > .nav-logo img {
     align-items: center;
     height: 70px;
   }
-
+  
   header > .nav-links nav ul li {
     list-style: none;
     margin-right: 30px;
   }
+  
+  header > .nav-links nav ul li a:hover{
+    color: orange;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  
   header > .nav-links nav ul li a {
     text-decoration: none;
     color: #112f98;
@@ -61,12 +64,7 @@ header > .nav-logo img {
     line-height: normal;
     cursor: pointer;
   }
-
-  header > .nav-links nav ul li a:hover{
-    color: orange;
-    transition: all 0.1s ease-in-out;
-  }
-
+  
   header > .nav-extra {
     height: 70px;
     width: 70px;
@@ -86,7 +84,7 @@ header > .nav-logo img {
     flex-shrink: 0;
     padding-right: 5px;
   }
-
+  
   .nav-extra > a button {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -106,66 +104,38 @@ header > .nav-logo img {
     transition: all 0.1s ease-in-out;
     cursor: pointer;
   }
-
-  .nav-extra >a button:active{
+  
+  .nav-extra > a button:active{
     opacity: 0.7;
     background-color: #3ca0b8;
     color: #fff;
   }
 
-  main {
-    width: 100vw;
-    height: 150vh;
-  }
-  
-  /* Banner */
-  #hero {
-    height: 90vh;
-    width: 100vw;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(/images/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  .lab , .library{
     display: flex;
-    justify-content: center;
-    align-items: center;
+      align-items: center;
+      gap: 20px;
+      height: 100vh;
   }
+
+  .lab > img , .library > img {
+    width: 20px;
+     flex: 1;
+     margin-bottom: 20px;
+    
+  }
+
+  .lab >figcaption, .library > figcaption{
+    flex: 1;
+    color: #112f98;
+    font-size: 30px;
+    font-family: bold;
+  }
+
+
+
 
   .disturb{
     width: 100vw;
     height: 70px;
-  }
-
-  .resources{
-    height: 90vh;
-    width: 100vw;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(/images/network.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: block;
-    justify-content: center;
-  }
-
-  .resources > h1{
-    text-align: center;
-    color: rgba(255, 255, 255, 0.621) ;
-    font-size: 55px;
-    margin-bottom: 30px;
-  }
-
-  .resources > article > .no{
-    color: rgba(255, 255, 255, 0.621) ;
-    font-size: large;
-    margin-bottom: 20px;
-    margin-left: 30px;
-  }
-
-  .resources > article > ol > li{
-    color: rgba(255, 255, 255, 0.621) ;
-    font-size: 20px;
-   margin-left: 50px;
-
   }
