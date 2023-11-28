@@ -116,9 +116,11 @@ header > .nav-logo img {
     width: 100vw;
     height: 150vh;
   }
+
+  
   
   /* Banner */
-  #hero {
+  .article{
     height: 90vh;
     width: 100vw;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -129,4 +131,40 @@ header > .nav-logo img {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .article > h1{
+    position: relative;
+    margin-bottom:20px ;
+  }
+
+  
+.article> h1 {
+  color: rgba(255, 255, 255, 0.621);
+  font-size: 150px;
+}
+
+.carlb{
+  background-color:  #2553f9;
+  color: rgba(255, 255, 255, 0.621);
+}
+.carlb > h1{
+  font-size: 30px;
+  margin:10px ;
+}
+
+.carlb > h4{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
+}
+
+.carlb > p{
+  margin-left:30px ;
+}
+
+  .disturb{
+    width: 100vw;
+    height: 70px;
   }
