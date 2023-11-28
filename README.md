@@ -1,6 +1,7 @@
 # DCIT_205_IA
-Benson Steve Fafa Kofi
-11357947        
+
+        Benson Steve Fafa Kofi
+        11357947        
         This is a website created for the coomputer science department of the university of ghana. 
         This isn ro create a valuable online prescence and a platform for communication, information dissemination, and interaction
 
